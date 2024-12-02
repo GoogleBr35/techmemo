@@ -30,5 +30,6 @@ for(a:N)
         c = N - a - b;
         if(total == X && combination == Y)
 ```
+のように書ける
 
 </details>

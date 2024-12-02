@@ -26,3 +26,12 @@
 > \div 
 
 </details>
+
+<details><summary>矢印</summary>
+
+## →
+> \rightarrow
+
+## ←
+> \liftarrow
+</details>
