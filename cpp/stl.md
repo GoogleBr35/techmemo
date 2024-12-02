@@ -28,7 +28,7 @@ bitset<ビット数> 変数名(整数);
         <td>XOR</td><td>^</td><td>bs1 ^ bs2</td>
     </tr>
     <tr>
-        <td>AND</td><td>~</td><td>bs1 ~ bs2</td>
+        <td>NOT</td><td>~</td><td>bs1 ~ bs2</td>
     </tr>
     <tr>
         <td>左シフト演算</td><td><<</td><td>bs1 << シフトするビット数</td>
