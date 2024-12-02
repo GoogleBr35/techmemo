@@ -26,7 +26,7 @@ c = X - a' - b'\\
 と一意に定まるので
 ```c++
 for(a:N)
-    for(b:N)
+    for(b:N-a)
         c = N - a - b;
         if(total == X && combination == Y)
 ```
