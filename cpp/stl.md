@@ -253,6 +253,30 @@ int main() {
  `set<型> 変数名;` 
 <br>
 
+## 操作
+<table>
+    <thead>
+        <tr>
+            <th>操作</th> <th>記法</th> <th>備考</th> <th>計算量</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>要素の追加</td> <td>変数.insert(値);</td><td></td><td>logN</td>
+    </tr>
+    <tr>
+        <td>要素の削除</td> <td>変数.erase(値);</td><td></td><td>logN</td>
+    </tr>
+    <tr>
+        <td>所属判定 (bool)</td> <td>変数.count(値);</td><td></td><td>logN</td>
+    </tr>
+    <tr>
+        <td>最小値の取得</td> <td>*begin(変数);</td><td>空のsetにこの操作をしてはいけない</td><td>1</td>
+    </tr>
+    <tr>
+        <td>最大値の取得</td> <td>*rbegin(変数);</td><td>空のsetにこの操作をしてはいけない</td><td>1</td>
+    </tr>
+</table>
+
 </details>
 
 
